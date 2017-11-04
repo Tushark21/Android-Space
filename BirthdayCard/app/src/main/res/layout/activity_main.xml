@@ -16,16 +16,41 @@ tools:context="com.example.birthdaycard.birthdaycard.MainActivity">
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:id="@+id/tv1"
     android:layout_alignParentTop="true"
     android:layout_alignParentLeft="true"
-    android:text="Happy Birthday, _______"
+    android:text="Happy"
     android:textSize="34sp"
     android:paddingTop="10dp"
     android:paddingLeft="20dp"
     android:fontFamily="sans-serif-light"
     android:textColor="@android:color/white" />
 
-<TextView
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@id/tv1"
+        android:layout_marginTop="50dp"
+        android:text="Birthday"
+        android:textSize="34sp"
+        android:paddingLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv2"
+        android:layout_marginTop="100dp"
+        android:text="_______"
+        android:textSize="34sp"
+        android:paddingLeft="20dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
